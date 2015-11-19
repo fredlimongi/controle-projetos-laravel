@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: SelfProjeto
+        psr4_prefix: SelfProjeto
+        src_path: app
