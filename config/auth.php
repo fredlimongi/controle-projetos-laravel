@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => SelfProjeto\User::class,
+    'model' => SelfProjeto\Entities\User::class,
 
     /*
     |--------------------------------------------------------------------------

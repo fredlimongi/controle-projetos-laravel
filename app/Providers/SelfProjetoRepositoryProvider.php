@@ -27,5 +27,15 @@ class SelfProjetoRepositoryProvider extends ServiceProvider
             \SelfProjeto\Repositories\ClienteRepository::class,
             \SelfProjeto\Repositories\ClienteRepositoryEloquent::class
         );
+
+        $this->app->bind(
+            \SelfProjeto\Repositories\ProjetoRepository::class,
+            \SelfProjeto\Repositories\ProjetoRepositoryEloquent::class
+        );
+
+        $this->app->bind(
+            \SelfProjeto\Repositories\ProjetoNotasRepository::class,
+            \SelfProjeto\Repositories\ProjetoNotasRepositoryEloquent::class
+        );
     }
 }
